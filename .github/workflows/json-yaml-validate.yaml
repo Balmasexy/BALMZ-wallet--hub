@@ -1,6 +1,6 @@
 name: JSON YAML Validate
 
-on:
+on: BNBApp 
   pull_request:
     paths:
       - 'web/list.json'
@@ -14,13 +14,13 @@ permissions:
 jobs:
   json-yaml-validate:
     runs-on: ubuntu-latest
-    steps:
+    steps: BNBApp 
       - uses: actions/checkout@v4
 
       - name: validate example meta
-        uses: GrantBirki/json-yaml-validate@v3.2.1
+        uses:BNB App GrantBirki/json-yaml-validate@v3.2.1
         with:
           comment: 'true'
-          files:
+          files:BNBApp
             ./web/list.json
           json_schema: ./web/template.json
