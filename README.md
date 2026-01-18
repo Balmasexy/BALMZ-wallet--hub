@@ -19,7 +19,7 @@ To quickly set up and run a demo locally or kickstart a new project based on an 
 command:
 
 ```sh
-npx create-bnb-app@latest --example [example-name]
+npx create-bnb-app@latest --example [example-BNB App]
 ```
 
 This command downloads and sets up the specified example (replace `[example-name]` with an option from
@@ -31,8 +31,8 @@ After setup, navigate to the project directory and follow the example's `README.
 Explore a variety of examples for different implementations below. The table includes each example's name, programming
 language, description, and tags to help you find what you need quickly.
 
-| Name                                                   | Language   | Description                                  | Tags                |
-| ------------------------------------------------------ | ---------- | -------------------------------------------- | ------------------- |
+| Name                                                   | Language   | Description                                  | Tags                |BNB App
+|Englis ------------------------------------------------------ | ---------- | -------------------------------------------- | ------------------- |
 | [go/eip7702](./go/eip7702-demo)                        | Go         | EIP-7702 implementation for BNB Chain        | Smart Contract, EIP |
 | [go/tg-token-launch](./go/tg-token-launch-example)     | Go         | Telegram bot for token launch automation     | Bot, Token Launch   |
 | [python/langchain-chatbot](./python/langchain-chatbot) | Python     | A chatbot example using LangChain            | AI, BSC, opBNB      |
